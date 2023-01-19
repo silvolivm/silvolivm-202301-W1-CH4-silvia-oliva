@@ -4,8 +4,12 @@
   "description": "challenge4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass:css --watch"
   },
   "author": "silvia oliva",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
 }
